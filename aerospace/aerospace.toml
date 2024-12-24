@@ -145,6 +145,25 @@ alt-shift-s = 'move-node-to-workspace Slack'
 alt-shift-t = 'move-node-to-workspace Terminal'
 alt-shift-z = 'move-node-to-workspace Zoom'
 
+
+ctrl-alt-1 = 'summon-workspace Home'
+ctrl-alt-2 = 'summon-workspace Home2'
+ctrl-alt-3 = 'summon-workspace Home3'
+ctrl-alt-4 = 'summon-workspace Home4'
+ctrl-alt-5 = 'summon-workspace Home5'
+ctrl-alt-6 = 'summon-workspace Home6'
+ctrl-alt-7 = 'summon-workspace Home7'
+ctrl-alt-8 = 'summon-workspace Home8'
+ctrl-alt-9 = 'summon-workspace Home9'
+ctrl-alt-b = 'summon-workspace Web'
+ctrl-alt-i = 'summon-workspace IDEA'
+ctrl-alt-m = 'summon-workspace Music'
+ctrl-alt-o = 'summon-workspace Obsidian'
+ctrl-alt-s = 'summon-workspace Slack'
+ctrl-alt-t = 'summon-workspace Terminal'
+ctrl-alt-z = 'summon-workspace Zoom'
+
+
 alt-shift-f = 'fullscreen'
 alt-shift-r = ['exec-and-forget /opt/homebrew/bin/sketchybar --reload']
 
@@ -198,3 +217,5 @@ run = "move-node-to-workspace Slack"
 [[on-window-detected]]
 if.app-id = 'us.zoom.xos'
 run = "move-node-to-workspace Zoom"
+
+
