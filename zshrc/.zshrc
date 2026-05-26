@@ -164,7 +164,7 @@ function _tab_preexec() {
   [[ -n "$title" ]] && _set_tab_title "$title"
 }
 
-function _tab_precmd() { _set_tab_title "${_TAB_MANUAL:-🐚 Shell}"; }
+function _tab_precmd() { _set_tab_title "${_TAB_MANUAL:-${_TAB_ICONS[shell]}}"; }
 
 add-zsh-hook preexec _tab_preexec
 add-zsh-hook precmd  _tab_precmd
